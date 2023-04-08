@@ -11,4 +11,6 @@ Wanted to see your phone model in the website? Please submit your very own score
 # Credits
 osu! Logo (SVG Version) - [wikimedia commons link](https://commons.m.wikimedia.org/wiki/File:Osu!_Logo_2016.svg)
 
-Breeze Sans font (used in Samsung User Interfaces) - [link](https://en.m.wikipedia.org/wiki/Breeze_Sans) 
+Breeze Sans Font (Samsung Electronics) - [link](https://developer.samsung.com/one-ui-watch-tizen/visual/typography.html)
+
+Fredoka Font (Google Fonts) - [link](https://fonts.google.com/specimen/Fredoka)
