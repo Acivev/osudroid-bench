@@ -1,5 +1,5 @@
-# osu!droid Benchmarks
-An unofficial osu!droid project made by me, where you see some phones with fps submitted through my google form (it's in the link on the contents on the second header)
+# osudroid!bench
+An unofficial osu!droid project made by me, where you see some phones with fps submitted through my google form.
 
 If you want to see the preview of this project, please [click here](https://paytouse.github.io/osudroid-benchmarks/index.html)
 
@@ -16,7 +16,7 @@ how does table sorting work? this feature works by clicking on the table headers
 it also works with numbers, it also works like the alphabet, from 0 to 9, and it can also be reversible from 9 to 0.
 
 # Submitting Scores
-Wanted to see your phone model in the website? Please submit your very own score by [clicking here](https://forms.gle/1vbqbEbiLirCobmC6)
+Wanted to see your phone model in the website? Please submit your very own score by [clicking here](https://forms.gle/1vbqbEbiLirCobmC6) and complete the survey to submit your score.
 
 *please note that phones with low benchmark scores will be replaced with high ones*
 
