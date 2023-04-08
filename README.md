@@ -14,3 +14,6 @@ osu! Logo (SVG Version) - [wikimedia commons link](https://commons.m.wikimedia.o
 Breeze Sans Font (Samsung Electronics) - [link](https://developer.samsung.com/one-ui-watch-tizen/visual/typography.html)
 
 Fredoka Font (Google Fonts) - [link](https://fonts.google.com/specimen/Fredoka)
+
+# License
+This project / osudroid-benchmarks is licensed under the **GNU General Public License v3.0**
