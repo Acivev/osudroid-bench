@@ -25,6 +25,10 @@ table {
 tr:nth-child(even) {
     background-color: #1E1E1E;
 }
+.aboutod {
+    background-color: #2E2E2E;
+    border: 2px solid #1E1E1E;
+}
 #title {
     color: #E0DDEE;
 }
