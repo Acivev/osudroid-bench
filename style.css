@@ -1,5 +1,5 @@
 body {
-    background-color: #555555;
+    background-color: #313131;
     color: #FFFFFF;
     text-align: justify;
     font-size: 15pt;
@@ -15,15 +15,18 @@ h1, h2, h3, h4, h5, h6 {
 table {
     font-size: 9.375pt;
     width: 100%;
-    border: 1px solid #000000;
-    background-color: #FFFFFF;
-    color: #000000;
+    border: 5px solid #2E2E2E;
+    background-color: #1A1A1A;
+    color: #FFFFFF;
     font-family: "Fredoka";
     text-align: center;
     border-radius: 10px;
 }
 tr:nth-child(even) {
-    background-color: #DDDDDD;
+    background-color: #1E1E1E;
+}
+#title {
+    color: #E0DDEE;
 }
 @font-face {
     font-family: "BreezeSans";
