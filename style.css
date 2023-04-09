@@ -24,6 +24,7 @@ table {
     font-family: "Fredoka";
     text-align: center;
     border-radius: 10px;
+    border-collapse: collapse;
 }
 tr:nth-child(even) {
     background-color: #1E1E1E;
