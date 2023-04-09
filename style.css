@@ -5,6 +5,9 @@ body {
     font-size: 15pt;
     font-family: "BreezeSans";
 }
+hr {
+    color: #575757;
+}
 p {
     margin: 15px;
     font-size: 7.5pt;
