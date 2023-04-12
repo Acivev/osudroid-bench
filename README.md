@@ -3,8 +3,11 @@ An unofficial osu!droid project made by me, where you see some phones with fps s
 
 If you want to see the preview of this project, please [click here](https://paytouse.github.io/osudroid-bench/index.html)
 
+# Note
+This project is related to osu!droid, which can be discussed on the project's discord server, *links later*
+
 # Scripts
-this project uses javascript as the main script executor for the project, which means, features are contained on this project i've been making
+this project uses javascript, which it's executed by the html file for the project, which means, features are contained on this project i've been making, *scripts on other languages soon*
 
 # Features
 the features used in this project are listed here:
