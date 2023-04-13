@@ -1,4 +1,5 @@
 # osudroid!bench
+<img src="/medias/osulogo.svg">
 An unofficial osu!droid project made by me, where you see some phones with fps submitted through my google form.
 
 If you want to see the preview of this project, please [click here](https://paytouse.github.io/osudroid-bench/index.html)
