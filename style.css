@@ -30,9 +30,9 @@ tr:nth-child(even) {
     background-color: #1E1E1E;
 }
 .aboutod {
-    background-color: #7E7E7E;
+    background-color: #3E3E3E;
     opacity: 1;
-    background-image:  linear-gradient(30deg, #4A4A4A 12%, transparent 12.5%, transparent 87%, #4A4A4A 87.5%, #4A4A4A), linear-gradient(150deg, #4A4A4A 12%, transparent 12.5%, transparent 87%, #4A4A4A 87.5%, #4A4A4A), linear-gradient(30deg, #4A4A4A 12%, transparent 12.5%, transparent 87%, #4A4A4A 87.5%, #4A4A4A), linear-gradient(150deg, #4A4A4A 12%, transparent 12.5%, transparent 87%, #4A4A4A 87.5%, #4A4A4A), linear-gradient(60deg, #4A4A4A77 25%, transparent 25.5%, transparent 75%, #4A4A4A77 75%, #4A4A4A77), linear-gradient(60deg, #4A4A4A77 25%, transparent 25.5%, transparent 75%, #4A4A4A77 75%, #4A4A4A77);
+    background-image:  linear-gradient(30deg, #2E2E2E 12%, transparent 12.5%, transparent 87%, #2E2E2E 87.5%, #2E2E2E), linear-gradient(150deg, #2E2E2E 12%, transparent 12.5%, transparent 87%, #2E2E2E 87.5%, #2E2E2E), linear-gradient(30deg, #2E2E2E 12%, transparent 12.5%, transparent 87%, #2E2E2E 87.5%, #2E2E2E), linear-gradient(150deg, #2E2E2E 12%, transparent 12.5%, transparent 87%, #2E2E2E 87.5%, #2E2E2E), linear-gradient(60deg, #2E2E2E77 25%, transparent 25.5%, transparent 75%, #2E2E2E77 75%, #2E2E2E77), linear-gradient(60deg, #2E2E2E77 25%, transparent 25.5%, transparent 75%, #2E2E2E77 75%, #2E2E2E77);
     background-size: 42px 74px;
     background-position: 0 0, 0 0, 21px 37px, 21px 37px, 0 0, 21px 37px; 
 }
