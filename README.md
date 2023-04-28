@@ -1,6 +1,6 @@
 # osudroid!bench
 <img src="/medias/osulogo.svg">
-An unofficial osu!droid project made by me, where you see some phones with fps submitted through my google form.
+An unofficial osu!droid **HTML** project made by me, where you see some phones with fps submitted through my google form.
 
 # Project Preview
 Please visit this link below to view the project's preview. 
@@ -8,10 +8,12 @@ Please visit this link below to view the project's preview.
 [please click here to view the preview of the project :)](https://paytouse.github.io/osudroid-bench/index.html)
 
 # Note
-This project is related to osu!droid, which can be discussed on the project's discord server, *links later*
+This project is related to osu!droid, which can be discussed on the [project's discord server](https://discord.gg/kUaSggQP7m)
+
+Also, this project is also not affiliated with the osu!droid community, mostly in the osu! community since it's not really related to it, but it can be discussable pretty much on the [osu!droid discord server](https://discord.gg/nyD92cE)
 
 # Scripts
-this project uses javascript, which it's executed by the html file for the project, which means, features are contained on this project i've been making, *scripts on other languages soon*
+Please take note that this project uses javascript, which it's executed mainly at the start of the project, which means that most features are contained on this upcoming html project, *scripts on other languages soon, just get patience man*
 
 # Features
 the features used in this project are listed here:
