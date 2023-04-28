@@ -18,7 +18,7 @@ function nameTyping() {
     
     function title1() {
         document.getElementById("projname").innerHTML = "o"
-        document.getElementById("projname").style.color = "#FFFFFF" 
+        document.getElementById("projname").style.color = "#E0DDEE" 
     }
     function title2() {
         document.getElementById("projname").innerHTML = "os"
