@@ -11,263 +11,267 @@
     <script src="libraries/aos.js"></script>
 </head>
 <body>
-    <center>
-    <img src="medias/osulogo.svg" width="200px">
-    </center>
-    <h1 id="projname">
-        osudroid!bench
-    </h1>
-    <p>
-        This project displays a table with the benchmarks of every phone or tablet listed by frame rate; <i>however, this information is not particularly precise and accurate, iPads, iPods and iPhones are not included in the table since they're iOS devices instead of Android devices.</i>
-    </p>
-    <p>
-        You can see from this table that the mentioned phones are ordered from the one that was originally added to the most recent phone added directly from my Google form. 
-    </p>
+    <div class="projecthead" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <center>
+        <img src="medias/osulogo.svg" width="200px">
+        </center>
+        <h1 id="projname">
+            osudroid!bench
+        </h1>
+        <p>
+            This project displays a table with the benchmarks of every phone or tablet listed by frame rate; <i>however, this information is not particularly precise and accurate, iPads, iPods and iPhones are not included in the table since they're iOS devices instead of Android devices.</i>
+        </p>
+        <p>
+            You can see from this table that the mentioned phones are ordered from the one that was originally added to the most recent phone added directly from my Google form. 
+         </p>
+    </div>
     <hr>
-    <h2>
-        Table
-    </h2>
-    <h3>Please <a href="https://forms.gle/1vbqbEbiLirCobmC6">click here</a> to submit your benchmark score if you want your phone to be in this table below.</h3>
-    <table id="benchmarkTable">
-        <tr>
-            <th onclick="sortTable(0)">Phone</th>
-            <th onclick="sortTable(1)">Manufacturer</th>
-            <th onclick="sortTable(2)">Processor / SoC</th>
-            <th onclick="sortTable(3)">Max FPS</th>
-            <th onclick="sortTable(4)">Average FPS</th>
-        </tr>
-        <tr>
-            <td>Huawei Nova 9</td>
-            <td>Huawei</td>
-            <td>Qualcomm Snapdragon 778G</td>
-            <td>120</td>
-            <td>119</td>
-        </tr>
-        <tr>
-            <td>Xiaomi Note 11</td>
-            <td>Xiaomi</td>
-            <td>Qualcomm Snapdragon 680</td>
-            <td>90</td>
-            <td>87</td>
-        </tr>
-        <tr>
-            <td>Xiaomi Poco X3</td>
-            <td>Xiaomi</td>
-            <td>Qualcomm Snapdragon 732G</td>
-            <td>120</td>
-            <td>118</td>
-        </tr>
-        <tr>
-            <td>Samsung Galaxy S8+</td>
-            <td>Samsung</td>
-            <td>Samsung Exynos 8895</td>
-            <td>60</td>
-            <td>59</td>
-        </tr>
-        <tr>
-            <td>Vivo Y31</td>
-            <td>Vivo</td>
-            <td>Qualcomm Snapdragon 662</td>
-            <td>60</td>
-            <td>57</td>
-        </tr>
-        <tr>
-            <td>Xiaomi 10T Pro</td>
-            <td>Xiaomi</td>
-            <td>Qualcomm Snapdragon 865</td>
-            <td>144</td>
-            <td>139</td>
-        </tr>
-        <tr>
-            <td>Oppo A74</td>
-            <td>Oppo</td>
-            <td>Qualcomm Snapdragon 662</td>
-            <td>60</td>
-            <td>57</td>
-        </tr>
-        <tr>
-            <td>Xiaomi Poco X3 Pro</td>
-            <td>Xiaomi</td>
-            <td>Qualcomm Snapdragon 860</td>
-            <td>120</td>
-            <td>119</td>
-        </tr>
-        <tr>
-            <td>Oppo A12</td>
-            <td>Oppo</td>
-            <td>MediaTek Helio P35</td>
-            <td>60</td>
-            <td>59</td>
-        </tr>
-        <tr>
-            <td>Xiaomi Poco X3 NFC</td>
-            <td>Xiaomi</td>
-            <td>Qualcomm Snapdragon 732G</td>
-            <td>120</td>
-            <td>117</td>
-        </tr>
-        <tr>
-            <td>OnePlus 5T</td>
-            <td>OnePlus</td>
-            <td>Qualcomm Snapdragon 835</td>
-            <td>60</td>
-            <td>60</td>
-        </tr>
-        <tr>
-            <td>Xiaomi 11T</td>
-            <td>Xiaomi</td>
-            <td>MediaTek Dimensity 1300</td>
-            <td>120</td>
-            <td>119</td>
-        </tr>
-        <tr>
-            <td>OnePlus Nord CE 2 Lite</td>
-            <td>OnePlus</td>
-            <td>Qualcomm Snapdragon 695</td>
-            <td>120</td>
-            <td>117</td>
-        </tr>
-        <tr>
-            <td>Vivo V25e</td>
-            <td>Vivo</td>
-            <td>MediaTek Helio G99</td>
-            <td>90</td>
-            <td>89</td>
-        </tr>
-        <tr>
-            <td>Xiaomi Poco F4 GT</td>
-            <td>Xiaomi</td>
-            <td>Qualcomm Snapdragon 8 Gen 1</td>
-            <td>120</td>
-            <td>120</td>
-        </tr>
-        <tr>
-            <td>Xiaomi 13</td>
-            <td>Xiaomi</td>
-            <td>Qualcomm Snapdragon 8 Gen 2</td>
-            <td>120</td>
-            <td>119</td>
-        </tr>
-        <tr>
-            <td>Xiaomi Redmi 9</td>
-            <td>Xiaomi</td>
-            <td>MediaTek Helio G80</td>
-            <td>60</td>
-            <td>50</td>
-        </tr>
-        <tr>
-            <td>Samsung Galaxy J7 (2016)</td>
-            <td>Samsung</td>
-            <td>Samsung Exynos 7870</td>
-            <td>60</td>
-            <td>58</td>
-        </tr>
-        <tr>
-            <td>Asus Zenfone Max Pro (M1)</td>
-            <td>Asus</td>
-            <td>Qualcomm Snapdragon 636</td>
-            <td>60</td>
-            <td>58</td>
-        </tr>
-        <tr>
-            <td>Sharp Aquos R2 (100hz)</td>
-            <td>Sharp</td>
-            <td>Qualcomm Snapdragon 845</td>
-            <td>100</td>
-            <td>100</td>
-        </tr>
-        <tr>
-            <td>Sharp Aquos R2 Compact</td>
-            <td>Sharp</td>
-            <td>Qualcomm Snapdragon 845</td>
-            <td>120</td>
-            <td>120</td>
-        </tr>
-        <tr>
-            <td>Vivo Y11</td>
-            <td>Vivo</td>
-            <td>Qualcomm Snapdragon 439</td>
-            <td>60</td>
-            <td>58</td>
-        </tr>
-        <tr>
-            <td>Oppo A31</td>
-            <td>Oppo</td>
-            <td>MediaTek Helio P35</td>
-            <td>60</td>
-            <td>59</td>
-        </tr>
-        <tr>
-            <td>Samsung Galaxy M12</td>
-            <td>Samsung</td>
-            <td>Samsung Exynos 850</td>
-            <td>90</td>
-            <td>89</td>
-        </tr>
-        <tr>
-            <td>Samsung Galaxy A30s</td>
-            <td>Samsung</td>
-            <td>Samsung Exynos 7904</td>
-            <td>60</td>
-            <td>59</td>
-        </tr>
-        <tr>
-            <td>Realme C15</td>
-            <td>Realme</td>
-            <td>MediaTek Helio G35</td>
-            <td>60</td>
-            <td>60</td>
-        </tr>
-        <tr>
-            <td>Vsmart Active 1</td>
-            <td>Vsmart</td>
-            <td>Qualcomm Snapdragon 660</td>
-            <td>60</td>
-            <td>60</td>
-        </tr>
-        <tr>
-            <td>Samsung Galaxy Tab A 8.0" (2019)</td>
-            <td>Samsung</td>
-            <td>Qualcomm Snapdragon 429</td>
-            <td>60</td>
-            <td>60</td>
-        </tr>
-        <tr>
-            <td>Samsung Galaxy Tab A 8.0" (2017)</td>
-            <td>Samsung</td>
-            <td>Qualcomm Snapdragon 425</td>
-            <td>60</td>
-            <td>59</td>
-        </tr>
-        <tr>
-            <td>Oppo A7</td>
-            <td>Oppo</td>
-            <td>Qualcomm Snapdragon 450</td>
-            <td>60</td>
-            <td>60</td>
-        </tr>
-        <tr>
-            <td>Samsung Galaxy Tab A7 Lite</td>
-            <td>Samsung</td>
-            <td>MediaTek Helio P22T</td>
-            <td>60</td>
-            <td>60</td>
-        </tr>
-        <tr>
-            <td>Xiaomi Poco F3</td>
-            <td>Xiaomi</td>
-            <td>Qualcomm Snapdragon 870</td>
-            <td>120</td>
-            <td>119</td>
-        </tr>
-        <tr>
-            <td>Samsung Galaxy A20s</td>
-            <td>Samsung</td>
-            <td>Qualcomm Snapdragon 450</td>
-            <td>60</td>
-            <td>59</td>
-        </tr>
-    </table>
+    <div class="phonebenchmarks" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <h2>
+            Table
+        </h2>
+        <h3>Please <a href="https://forms.gle/1vbqbEbiLirCobmC6">click here</a> to submit your benchmark score if you want your phone to be in this table below.</h3>
+        <table id="benchmarkTable">
+            <tr>
+                <th onclick="sortTable(0)">Phone</th>
+                <th onclick="sortTable(1)">Manufacturer</th>
+                <th onclick="sortTable(2)">Processor / SoC</th>
+                <th onclick="sortTable(3)">Max FPS</th>
+                <th onclick="sortTable(4)">Average FPS</th>
+            </tr>
+            <tr>
+                <td>Huawei Nova 9</td>
+                <td>Huawei</td>
+                <td>Qualcomm Snapdragon 778G</td>
+                <td>120</td>
+                <td>119</td>
+            </tr>
+            <tr>
+                <td>Xiaomi Note 11</td>
+                <td>Xiaomi</td>
+                <td>Qualcomm Snapdragon 680</td>
+                <td>90</td>
+                <td>87</td>
+            </tr>
+            <tr>
+                <td>Xiaomi Poco X3</td>
+                <td>Xiaomi</td>
+                <td>Qualcomm Snapdragon 732G</td>
+                <td>120</td>
+                <td>118</td>
+            </tr>
+            <tr>
+                <td>Samsung Galaxy S8+</td>
+                <td>Samsung</td>
+                <td>Samsung Exynos 8895</td>
+                <td>60</td>
+                <td>59</td>
+            </tr>
+            <tr>
+                <td>Vivo Y31</td>
+                <td>Vivo</td>
+                <td>Qualcomm Snapdragon 662</td>
+                <td>60</td>
+                <td>57</td>
+            </tr>
+            <tr>
+                <td>Xiaomi 10T Pro</td>
+                <td>Xiaomi</td>
+                <td>Qualcomm Snapdragon 865</td>
+                <td>144</td>
+                <td>139</td>
+            </tr>
+            <tr>
+                <td>Oppo A74</td>
+                <td>Oppo</td>
+                <td>Qualcomm Snapdragon 662</td>
+                <td>60</td>
+                <td>57</td>
+            </tr>
+            <tr>
+                <td>Xiaomi Poco X3 Pro</td>
+                <td>Xiaomi</td>
+                <td>Qualcomm Snapdragon 860</td>
+                <td>120</td>
+                <td>119</td>
+            </tr>
+            <tr>
+                <td>Oppo A12</td>
+                <td>Oppo</td>
+                <td>MediaTek Helio P35</td>
+                <td>60</td>
+                <td>59</td>
+            </tr>
+            <tr>
+                <td>Xiaomi Poco X3 NFC</td>
+                <td>Xiaomi</td>
+                <td>Qualcomm Snapdragon 732G</td>
+                <td>120</td>
+                <td>117</td>
+            </tr>
+            <tr>
+                <td>OnePlus 5T</td>
+                <td>OnePlus</td>
+                <td>Qualcomm Snapdragon 835</td>
+                <td>60</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>Xiaomi 11T</td>
+                <td>Xiaomi</td>
+                <td>MediaTek Dimensity 1300</td>
+                <td>120</td>
+                <td>119</td>
+            </tr>
+            <tr>
+                <td>OnePlus Nord CE 2 Lite</td>
+                <td>OnePlus</td>
+                <td>Qualcomm Snapdragon 695</td>
+                <td>120</td>
+                <td>117</td>
+            </tr>
+            <tr>
+                <td>Vivo V25e</td>
+                <td>Vivo</td>
+                <td>MediaTek Helio G99</td>
+                <td>90</td>
+                <td>89</td>
+            </tr>
+            <tr>
+                <td>Xiaomi Poco F4 GT</td>
+                <td>Xiaomi</td>
+                <td>Qualcomm Snapdragon 8 Gen 1</td>
+                <td>120</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <td>Xiaomi 13</td>
+                <td>Xiaomi</td>
+                <td>Qualcomm Snapdragon 8 Gen 2</td>
+                <td>120</td>
+                <td>119</td>
+            </tr>
+            <tr>
+                <td>Xiaomi Redmi 9</td>
+                <td>Xiaomi</td>
+                <td>MediaTek Helio G80</td>
+                <td>60</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                 <td>Samsung Galaxy J7 (2016)</td>
+                 <td>Samsung</td>
+                 <td>Samsung Exynos 7870</td>
+                 <td>60</td>
+                 <td>58</td>
+            </tr>
+            <tr>
+                <td>Asus Zenfone Max Pro (M1)</td>
+                <td>Asus</td>
+                <td>Qualcomm Snapdragon 636</td>
+                <td>60</td>
+                <td>58</td>
+            </tr>
+            <tr>
+                <td>Sharp Aquos R2 (100hz)</td>
+                <td>Sharp</td>
+                <td>Qualcomm Snapdragon 845</td>
+                <td>100</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Sharp Aquos R2 Compact</td>
+                <td>Sharp</td>
+                <td>Qualcomm Snapdragon 845</td>
+                <td>120</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <td>Vivo Y11</td>
+                <td>Vivo</td>
+                <td>Qualcomm Snapdragon 439</td>
+                <td>60</td>
+                <td>58</td>
+            </tr>
+            <tr>
+                <td>Oppo A31</td>
+                <td>Oppo</td>
+                <td>MediaTek Helio P35</td>
+                <td>60</td>
+                <td>59</td>
+            </tr>
+            <tr>
+                <td>Samsung Galaxy M12</td>
+                <td>Samsung</td>
+                <td>Samsung Exynos 850</td>
+                <td>90</td>
+                <td>89</td>
+            </tr>
+            <tr>
+                <td>Samsung Galaxy A30s</td>
+                <td>Samsung</td>
+                <td>Samsung Exynos 7904</td>
+                <td>60</td>
+                <td>59</td>
+            </tr>
+            <tr>
+                <td>Realme C15</td>
+                <td>Realme</td>
+                <td>MediaTek Helio G35</td>
+                <td>60</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>Vsmart Active 1</td>
+                <td>Vsmart</td>
+                <td>Qualcomm Snapdragon 660</td>
+                <td>60</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>Samsung Galaxy Tab A 8.0" (2019)</td>
+                <td>Samsung</td>
+                <td>Qualcomm Snapdragon 429</td>
+                <td>60</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>Samsung Galaxy Tab A 8.0" (2017)</td>
+                <td>Samsung</td>
+                <td>Qualcomm Snapdragon 425</td>
+                <td>60</td>
+                <td>59</td>
+            </tr>
+            <tr>
+                <td>Oppo A7</td>
+                <td>Oppo</td>
+                <td>Qualcomm Snapdragon 450</td>
+                <td>60</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>Samsung Galaxy Tab A7 Lite</td>
+                <td>Samsung</td>
+                <td>MediaTek Helio P22T</td>
+                <td>60</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>Xiaomi Poco F3</td>
+                <td>Xiaomi</td>
+                <td>Qualcomm Snapdragon 870</td>
+                <td>120</td>
+                <td>119</td>
+            </tr>
+            <tr>
+                <td>Samsung Galaxy A20s</td>
+                <td>Samsung</td>
+                <td>Qualcomm Snapdragon 450</td>
+                <td>60</td>
+                <td>59</td>
+            </tr>
+        </table>
+    </div>
     <hr>
     <div class="aboutod">
         <h3>
