@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aos.css">
+    <link rel="icon" type="image/x-icon" href="medias/favicon.ico">
+    <script src="libraries/jquery-3.6.4.min.js"></script>
+    <script src="libraries/aos.js"></script>
+    <title>osudroid!bench</title>
+</head>
+
+<body>
+    <div class="project">
+        <div class="projecthead" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <center>
+                <img src="medias/osulogo.svg" width="200px">
+            </center>
+            <h1 id="projname">
+                |
+            </h1>
+            <h3>
+                an osu!droid related benchmarking project.
+            </h3>
+            <p>
+                This benchmarking project displays a table that includes every android device listed by recently added, which is below; <i>however, this information is not particularly precise and accurate, iPads, iPods and iPhones are not included in the table since they're iOS devices, which their operating system is different to android.</i>
+            </p>
+            <p>
+                As you can see, this table lists the first added devices to it on the top, and on the bottom, which includes recently added devices.
+            </p>
+            <p>
+                With this major change when it comes to tables, i have decided on including other table columns, and i have reset the whole table along with the google form too, as suggested by <a href="https://m.youtube.com/@ImagineBlaze">Imagine Blaze</a> to make the data pretty easy to read, huge shoutout for feedbacks and suggestions:)
+            </p>
+            <p>
+                But unfortunately, the project is only designed for mobile or tablet due to computer monitors with low resolutions, which made the website unreadable, <i>unless you have a monitor with bigger size, or higher resolution.</i>
+            </p>
+            <hr>
+        </div>
+        <div class="phonebenchmarks" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <h2>
+                Table
+            </h2>
+            <h5>Please <a href="https://forms.gle/4x94LmCRpWJMd9Tq6">click here</a> to submit your benchmark score if you want your phone to be in this table below.</h5>
+            <h5>In order to submit your average fps you were currently having, please <a href="beatmaps/benchmark-beatmap.osz" download>download this benchmark beatmap</a> here.</h5>
+            <table id="benchmarkTable">
+                <center>
+                    <tr>
+                        <th onclick="sortTable(0)">Phone</th>
+                        <th onclick="sortTable(1)">Manufacturer</th>
+                        <th onclick="sortTable(2)">Processor / SoC</th>
+                        <th onclick="sortTable(3)">SoC Brand</th>
+                        <th onclick="sortTable(4)">Process</th>
+                        <th onclick="sortTable(5)">Refresh Rate</th>
+                        <th onclick="sortTable(6)">Average FPS</th>
+                        <th onclick="sortTable(7)">Year Released</th>
+                    </tr>
+                    <tr>
+                        <td>Huawei Nova 9</td>
+                        <td>Huawei</td>
+                        <td>Qualcomm Snapdragon 778G</td>
+                        <td>Qualcomm</td>
+                        <td>6nm</td>
+                        <td>120</td>
+                        <td>57</td>
+                        <td>2021</td>
+                    </tr>
+                </center>
+            </table>
+        </div>
+        <hr>
+        <div class="aboutod" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <h3>
+                About osu!droid
+            </h3>
+            <p>
+                osu!droid is an unofficial osu project for android. This game was created many years ago by the osu! community. It is a free-to-play rhythm game for Android devices that involves clicking circles. Currently, a small group of fans and several foreign friends are working on this project together. Similar to it's original PC version, osu!droid's gameplay involves players tapping, sliding, and spinning on circles, sliders, and spinners to the beat of music. Mobile gamers that like difficult rhythm games are fond of this game. The osu! community has totally created a large number of songs and maps, which can be imported to osu!droid, and this game only has one game mode, including the osu!standard game mode.
+            </p>
+            <p>
+                Currently, osu!droid is currently in development, which means the developers are currently working in it. It's source code was entirely made in Java, a popular programming language which is capable of making mobile, and computer softwares. The goal of the game is to develop new features that we're only exclusive in-game. The lead Developer, <a href="https://github.com/rian8337">Rian8337 (Rian)</a> has worked hard making lots of game mechanics to make it work like the original osu! on PC. Some mechanics in-game were pretty much different, from the performance points (pp), in-game exclusive mods, different server, among many others.
+            </p>
+            <p>to download the game, <a href="files/o!d-1.6.8230527-debug.apk" download>please click here to download the game</a>, and <i>please take note that the file you are downloading is a debug version, which means you cannot connect to the server</i>. And for it's source code, please <a href="https://github.com/osudroid/osu-droid">click here to see all code being implemented to the game, and how it was really made.</a></p>
+        </div>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <p style="font-size:10px;text-align:center">
+                please make this project bigger by submitting your benchmark scores from your Android device, just please man, it would help me alot if you do, along with my hard work on this :')
+            </p>
+            <p style="text-align:center">
+                Last Updated: May 19, 2023, Version v1.6
+            </p>
+            <p style="text-align:center">
+                This website was initially released since March 31, 2023
+            </p>
+            <p style="font-size:10px;text-align:center">
+                osu!bench (C) 2023 Louie Kurenai
+            </p>
+        </div>
+        <div class="center" onclick="window.location.replace('https://github.com/PayToUse/osudroid-bench')" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <img src="medias/githubicon.svg" width="25px" height="25px">
+            <img src="medias/githublogo.png" height="25px">
+        </div>
+    </div>
+    <script src="scripts/tablesorting.js"></script>
+    <script src="scripts/console.js"></script>
+    <script src="scripts/animation.js"></script>
+    <script src="scripts/libinit.js"></script>
+</body>
+
+</html>
