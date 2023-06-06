@@ -70,11 +70,20 @@ a {
        margin: 0px;
    }
 }
+@media all and (min-width: 725px) {
+   .project {
+	   margin: 5%;
+
+  }
+   body {
+       font-size:17.5pt;
+  }
+}
 @media all and (min-width:1025px) {
    .project {
        margin: 17.5%;
    }
    body {
-       font-size:25pt
+       font-size:25pt;
    }
 }
