@@ -72,12 +72,14 @@ a {
 }
 @media all and (min-width: 725px) {
    .project {
-	   margin: 5%;
-
-  }
+	   margin: 7.5%;
+I
+   }
    body {
-       font-size:17.5pt;
-  }
+       font-size:19.5pt;
+   }
+   table {
+       font-size:19.5pt;
 }
 @media all and (min-width:1025px) {
    .project {
@@ -85,5 +87,8 @@ a {
    }
    body {
        font-size:25pt;
+   }
+I  table {
+       font-size:25pt
    }
 }
