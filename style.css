@@ -86,7 +86,11 @@ I
    }
    table {
        font-size: 17.5pt;
-       width: 62.5%
+       width: 62.5%;
+   }
+   a:hover {
+       font-size: 19pt;
+   }
 }
 @media all and (min-width:1025px) {
    .project {
@@ -99,4 +103,7 @@ I  table {
        font-size: 20pt;
        width: 75%;
    }
+   a:hover {
+       font-size: 22pt
+   }  
 }
